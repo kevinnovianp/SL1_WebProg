@@ -270,7 +270,7 @@
             if(kodePos.value.trim() === ""){
                 engine(kodePos,10,false,"Input can't be empty!")
                 tmp+=1
-            } else if(kodePos.value.match(/^[0-9]+$/)==null || nik.value.length < 5){
+            } else if(kodePos.value.match(/^[0-9]+$/)==null || kodePos.value.length < 5){
                 engine(kodePos,10,false,"Input must be at least 5 digits!")
                 tmp+=1
             } else engine(kodePos,10,true,"")
